@@ -1,0 +1,88 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/praveeng/Downloads/booth/Actuator/Actuators.csproj": {}
+  },
+  "projects": {
+    "/Users/praveeng/Downloads/booth/Actuator/Actuators.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/praveeng/Downloads/booth/Actuator/Actuators.csproj",
+        "projectName": "Actuators",
+        "projectPath": "/Users/praveeng/Downloads/booth/Actuator/Actuators.csproj",
+        "packagesPath": "/Users/praveeng/.nuget/packages/",
+        "outputPath": "/Users/praveeng/Downloads/booth/Actuator/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/praveeng/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Steeltoe.Extensions.Configuration.CloudFoundryCore": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Steeltoe.Extensions.Logging.DynamicLogger": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Steeltoe.Management.CloudFoundryCore": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Steeltoe.Security.Authentication.CloudFoundryCore": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

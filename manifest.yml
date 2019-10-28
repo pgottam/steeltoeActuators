@@ -1,0 +1,7 @@
+---
+applications:
+- name: actuator
+buildpacks:
+- https://github.com/cloudfoundry/dotnet-core-buildpack
+service:
+- configserver
